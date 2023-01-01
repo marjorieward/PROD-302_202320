@@ -1,1 +1,1101 @@
-<h1>PROD 302 Winter 2023 Placeholder</h1>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PROD302Winter2023</title>
+<link href="PROD 302 Winter 2023 Styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="body">
+<div class="calendar-container">
+<div class="calendar-header">
+<h1>January 2023</h1>
+<em>Click each element for more details</em></div>
+<div class="calendar">
+<!--days of the week---> 
+<span class="day-name">Sun</span> 
+<span class="day-name">Mon</span> 
+<span class="day-name">Tue</span> 
+<span class="day-name">Wed</span> 
+<span class="day-name">Thu</span> 
+<span class="day-name">Fri</span> 
+<span class="day-name">Sat</span> 
+<!--active dates--->
+<div class="day" style="grid-column: 1; grid-row: 2;">1</div>
+<div class="day" style="grid-column: 2; grid-row: 2;">2</div>
+<div class="day" style="grid-column: 3; grid-row: 2;">3</div>
+<div class="day" style="grid-column: 4; grid-row: 2;">4</div>
+<div class="day" style="grid-column: 5; grid-row: 2;">5</div>
+<div class="day" style="grid-column: 6; grid-row: 2;">6</div>
+<div class="day" style="grid-column: 7; grid-row: 2;">7</div>
+<div class="day" style="grid-column: 1; grid-row: 3;">8</div>
+<div class="day" style="grid-column: 2; grid-row: 3;">9</div>
+<div class="day" style="grid-column: 3; grid-row: 3;">10</div>
+<div class="day" style="grid-column: 4; grid-row: 3;">11</div>
+<div class="day" style="grid-column: 5; grid-row: 3;">12</div>
+<div class="day" style="grid-column: 6; grid-row: 3;">13</div>
+<div class="day" style="grid-column: 7; grid-row: 3;">14</div>
+<div class="day" style="grid-column: 1; grid-row: 4;">15</div>
+<div class="day" style="grid-column: 2; grid-row: 4;">16</div>
+<div class="day" style="grid-column: 3; grid-row: 4;">17</div>
+<div class="day" style="grid-column: 4; grid-row: 4;">18</div>
+<div class="day" style="grid-column: 5; grid-row: 4;">19</div>
+<div class="day" style="grid-column: 6; grid-row: 4;">20</div>
+<div class="day" style="grid-column: 7; grid-row: 4;">21</div>
+<div class="day" style="grid-column: 1; grid-row: 5;">22</div>
+<div class="day" style="grid-column: 2; grid-row: 5;">23</div>
+<div class="day" style="grid-column: 3; grid-row: 5;">24</div>
+<div class="day" style="grid-column: 4; grid-row: 5;">25</div>
+<div class="day" style="grid-column: 5; grid-row: 5;">26</div>
+<div class="day" style="grid-column: 6; grid-row: 5;">27</div>
+<div class="day" style="grid-column: 7; grid-row: 5;">28</div>
+<div class="day" style="grid-column: 1; grid-row: 6;">29</div>
+<div class="day" style="grid-column: 2; grid-row: 6;">30</div>
+<div class="day" style="grid-column: 3; grid-row: 6;">31</div>
+<!--disabled dates--->
+<div class="day day--disabled" style="grid-column: 4; grid-row: 6;">1</div>
+<div class="day day--disabled" style="grid-column: 5; grid-row: 6;">2</div>
+<div class="day day--disabled" style="grid-column: 6; grid-row: 6;">3</div>
+<div class="day day--disabled" style="grid-column: 7; grid-row: 6;">4</div>
+<div class="day" style="grid-column: 1; grid-row: 7;"></div>
+<!--CLASS BARS--->
+<!--ClassBar START Class One--->
+<section class="class--bar" onclick="myFunction('class1PopUp')" id="class1" style="grid-column: 2 / span 1; grid-row: 3;">Class One</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Two--->
+<section class="class--bar" onclick="myFunction('class2PopUp')" id="class2" style="grid-column: 4 / span 1; grid-row: 3;">Class Two</section>
+<!--ClassBar END--->
+<!--ClassBar START Class One--->
+<section class="class--bar" onclick="myFunction('class3PopUp')" id="class3" style="grid-column: 4 / span 1; grid-row: 4;">Class Three</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Two--->
+<section class="class--bar" onclick="myFunction('class4PopUp')" id="class4" style="grid-column: 6 / span 1; grid-row: 4;">Class Four</section>
+<!--ClassBar END--->
+<!--ClassBar START Class One--->
+<section class="class--bar" onclick="myFunction('class5PopUp')" id="class5" style="grid-column: 2 / span 1; grid-row: 5;">Class Five</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Two--->
+<section class="class--bar" onclick="myFunction('class6PopUp')" id="class6" style="grid-column: 4 / span 1; grid-row: 5;">Class Six</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Seven--->
+<section class="class--bar" onclick="myFunction('class7PopUp')" id="class7" style="grid-column: 2 / span 1; grid-row: 6;">Class Seven</section>
+<!--ClassBar END---> 
+<!--CLASS POPUPS--->
+<!--Class One Popup START--->
+<div class="task__detail" id="class1PopUp" onclick="myFunction('class1PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class One - Welcome to the Sewing Studio</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline;">Complete the Pre-Quarter Assignment</li>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Practice threading and operation of the industrial lockstitch machine and serger.</li>
+<li>Begin cutting fabric for sample book.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul>
+<li class="task__list">Print provided patterns and cut all necessary pattern pieces following the pattern cutting instructions.</li>
+</ul>
+</div>
+<!--Class One Popup END--->
+
+<!--Class Two Popup START--->
+<div class="task__detail" id="class2PopUp" onclick="myFunction('class2PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Two - Getting Started with Fabric Manipulation</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following pattern pieces to class:</li>
+<ul>
+<li>Knife Pleats Pattern</li>
+<li>Box Pleats Pattern</li>
+<li>Pin Tucks Pattern</li>
+<li>Tuck and Fold Pattern</li>
+</ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Juki Industrial Bobbin</li>
+<li>Juki Industrial Bobbin Case</li>
+<li>DBx1 sewing needles 90/14</li>
+<!---FASH Everyday Sewing Supplies--->
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Medium weight muslin</li>
+<li>Clear ruler with 1/8 inch markings</li>
+<li>Frixion brand pen(s)</li>
+<li>Ball head quilter's pins</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Transfer Paper</li>
+<li>Serrated Tracing Wheel</li>
+<li>Seam Ripper</li>
+<li>Tape Measure</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Students practice various forms of pleating and pin tucks:</li>
+<ul>
+<li>Knife pleats</li>
+<li>Box pleats</li>
+<li>Pin tucks</li>
+<li>Tuck and Fold</li>
+</ul>	
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li style="text-decoration-line: underline">Complete pleating and pin tuck samples and bring them to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Two Popup END--->
+
+<!--Class Three Popup START--->
+<div class="task__detail" id="class3PopUp" onclick="myFunction('class3PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Three - Fabric Manipulation Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline">Sample Book Productivity</li>
+<li class="task__list">Bring the following samples to class for review:</li>
+<ul>
+<li>Knife pleats</li>
+<li>Box pleats</li>
+<li>Pin tucks</li>
+<li>Tuck and Fold</li>
+</ul>
+</ul>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following pattern pieces (cut, notched, and marks transferred) to class:</li>
+<ul>
+<li>Gathers Pattern (2 pieces)</li>
+<li>Corded gathers Pattern</li>
+</ul>
+</ul>
+	<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Juki Industrial Bobbin</li>
+<li>Juki Industrial Bobbin Case</li>
+<li>DBx1 sewing needles 90/14</li>
+<!---FASH Everyday Sewing Supplies--->
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Medium weight muslin</li>
+<li>Clear ruler with 1/8 inch markings</li>
+<li>Frixion brand pen(s)</li>
+<li>Ball head quilter's pins</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Transfer Paper</li>
+<li>Serrated Transfer Wheel</li>
+<li>Seam Ripper</li>
+<li>Tape Measure</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Students practice various forms of gathers:</li>
+<ul>
+<li>Machine-stitched gathers</li>
+<li>Hand-stitched gathers</li>
+<li>Corded gathers</li>
+</ul>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul>
+<li class="task__list">Complete the machine-stitched gathers, hand-stitched gathers, and corded gathers.</li>
+</ul>
+</div>
+<!--Class Three Popup END---> 
+
+<!--Class Four Popup START--->
+<div class="task__detail" id="class4PopUp" onclick="myFunction('class4PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Four - Fabric Manipulation Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following pattern pieces (cut, notched, and marks transferred) to class:</li>
+<ul>
+<li>Braiding Embellishment Pattern</li>
+<li>Bobbles Embellishment Pattern</li>
+</ul>
+</ul>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Cotton balls or Polyester fiber fill</li>
+<li>20 inches of decorative braiding</li>
+<li>2 inch wide ribbon</li>
+<li>Juki Industrial Bobbin</li>
+<li>Juki Industrial Bobbin Case</li>
+<li>DBx1 sewing needles 90/14</li>
+<!---FASH Everyday Sewing Supplies--->
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Medium weight muslin</li>
+<li>Clear ruler with 1/8 inch markings</li>
+<li>Frixion brand pen(s)</li>
+<li>Ball head quilter's pins</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Transfer Paper</li>
+<li>Serrated Transfer Wheel</li>
+<li>Seam Ripper</li>
+<li>Tape Measure</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Working with ribbon and braiding for surface embellishment.</li>
+<li>Creating textures with stitched bobbles.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Reminder to acquire a dress for the Riches to Rags project.</li>
+<li style="text-decoration-line: underline">Complete the gathering, ribbon, braiding, and hand-stitched bobbles samples and bring them to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Four Popup END---> 
+
+<!--Class Five Popup START--->
+<div class="task__detail" id="class5PopUp" onclick="myFunction('class5PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Five - Fabric Manipulation Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline">Sample Book Productivity</li>
+<li class="task__list">Bring the following samples to class for review:</li>
+<ul>
+<li>Machine-stitched gathers</li>
+<li>Hand-stitched gathers</li>
+<li>Corded gathers</li>
+<li>Ribbon</li>
+<li>Braiding</li>
+<li>Hand-stitched bobbles</li>
+</ul>
+</ul>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following pattern pieces (cut, notched, and marks transferred) to class:</li>
+<ul>
+<li>Quilting Pattern</li>
+<li>Trapunto Pattern</li>
+<li>Corded Trapunto Pattern</li>
+<li>Backing Pattern (3 pieces)</li>
+</ul>
+</ul>
+	<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Cotton balls or Polyester fiber fill</li>
+<li>Worsted weight Acrylic Yarn or cording</li>
+<li>Juki Industrial Bobbin</li>
+<li>Juki Industrial Bobbin Case</li>
+<li>DBx1 sewing needles 90/14</li>
+<!---FASH Everyday Sewing Supplies--->
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Medium weight muslin</li>
+<li>Clear ruler with 1/8 inch markings</li>
+<li>Frixion brand pen(s)</li>
+<li>Ball head quilter's pins</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Transfer Paper</li>
+<li>Serrated Transfer Wheel</li>
+<li>Seam Ripper</li>
+<li>Tape Measure</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Creating textures by quilting, trapunto, and corded trapunto</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul>
+<li class="task__list">Complete quilting and trapunto samples.</li>
+</ul>
+</div>
+<!--Class Five Popup END---> 
+
+<!--Class Six Popup START--->
+<div class="task__detail" id="class6PopUp" onclick="myFunction('class6PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Six - Fabric Manipulation Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following pattern pieces (cut, notched, and marks transferred) to class:</li>
+<ul>
+<li>Reverse Applique Pattern</li>
+<li>Backing Pattern (1 Piece)</li>
+</ul>
+</ul>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>1 sheet of craft felt</li>
+<li>Juki Industrial Bobbin</li>
+<li>Juki Industrial Bobbin Case</li>
+<li>DBx1 sewing needles 90/14</li>
+<!---FASH Everyday Sewing Supplies--->
+<li>Hand Sewing Needles</li>
+<li>All-purpose thread in desired color(s)</li>
+<li>Medium weight muslin</li>
+<li>Solid or printed cotton fabric</li>
+<li>Weft Interfacing</li>
+<li>Clear ruler with 1/8 inch markings</li>
+<li>Frixion brand pen(s)</li>
+<li>Ball head quilter's pins</li>
+<li>Fabric Scissors</li>
+<li>Paper Scissors</li>
+<li>Transfer Paper</li>
+<li>Serrated Transfer Wheel</li>
+<li>Seam Ripper</li>
+<li>Tape Measure</li>
+<li>Thread snips/embroidery scissors (optional)</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Students practice with the following samples:</li>
+<ul>
+<li>Reverse applique</li>
+<li>Joined felt shapes</li>
+</ul>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list" style="text-decoration-line: underline">
+<li>Complete the quilting, trapunto, corded trapunto, reverse applique, and joined felt shapes samples and bring them to our next class meeting.</li>
+<li>Bring your Riches to Rags dress to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Six Popup END--->
+<!--Class Seven Popup START--->
+<div class="task__detail" id="class7PopUp" onclick="myFunction('class7PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Seven - Garment Aging and Distressing Techniques</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li  class="task__list" style="text-decoration-line: underline">Bring your desired maxi-length dress to class for review</li>
+<li class="task__list" style="text-decoration-line: underline">Sample Book Productivity</li>
+<li class="task__list">Bring the following samples to class for review:</li>
+<ul>
+<li>Quilting</li>
+<li>Trapunto</li>
+<li>Corded trapunto</li>
+<li>Reverse applique</li>
+<li>Joined felt shapes</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Students will begin research and sketching for the Riches to Rags project.</li>
+<li>Begin creating the moodboard, sketches and research for the Riches to Rags
+project.</li>
+<li>Use at least 2 of the previously learned fabric manipulation techniques to alter and
+style a basic maxi dress.</li>
+<li>Be sure to consider who your character might be in the design and alteration
+process.</li>
+<li>Produce a front and back sketch of the altered dress.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Take copious photos of the original dress in preparation for future submission.</li>
+<li>Acquire materials for Riches to Rags project.</li>
+</ul>
+</div>
+<!--Class Seven Popup END---> 
+<!--ASSIGNMENT BARS--->
+<!--AssignmentBar PQA START--->
+<section class="assignment--bar" id="assignmentPQA" onclick="myFunction('assignmentPQAPopUp')" style="grid-column: 1 / span 1; grid-row: 3;">Pre-Quarter Assignment Due <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignmenPQAPopUp" style="top: calc(100% + 10px);display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Submit via Discussion Forums</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar PQA END---> 
+<!--AssignmentBar One START--->
+<section class="assignment--bar" id="assignment1" onclick="myFunction('assignment1PopUp')" style="grid-column: 4 / span 1; grid-row: 4;">Productivity Check-in<!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment1PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 10px;">Bring completed exercises to class.</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar One END--->  
+<!--AssignmentBar Two START--->
+<section class="assignment--bar" id="assignment2" onclick="myFunction('assignment2PopUp')" style="grid-column: 2 / span 1; grid-row: 5;">Productivity Check-in<!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment2PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 10px;">Bring completed exercises to class.</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Two END--->
+<!--AssignmentBar Three START--->
+<section class="assignment--bar" id="assignment3" onclick="myFunction('assignment3PopUp')" style="grid-column: 2 / span 1; grid-row: 6;">Productivity Check-in<!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment3PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 10px;">Bring completed exercises to class.</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Three END--->
+</div>
+</div>
+</div>
+<div class="body">
+<div class="calendar-container">
+<div class="calendar-header">
+<h1>February 2023</h1>
+<em>Click each element for more details</em></div>
+<!--days of the week---> 
+<div class="calendar">
+<span class="day-name">Sun</span> 
+<span class="day-name">Mon</span> 
+<span class="day-name">Tue</span> 
+<span class="day-name">Wed</span> 
+<span class="day-name">Thu</span> 
+<span class="day-name">Fri</span> 
+<span class="day-name">Sat</span> 
+<!--disabled dates--->
+<div class="day day--disabled" style="grid-column: 1; grid-row: 2;">29</div>
+<div class="day day--disabled" style="grid-column: 2; grid-row: 2;">30</div>
+<div class="day day--disabled" style="grid-column: 3; grid-row: 2;">31</div>
+<!--active dates--->
+<div class="day" style="grid-column: 4; grid-row: 2;">1</div>
+<div class="day" style="grid-column: 5; grid-row: 2;">2</div>
+<div class="day" style="grid-column: 6; grid-row: 2;">3</div>
+<div class="day" style="grid-column: 7; grid-row: 2;">4</div>
+<div class="day" style="grid-column: 1; grid-row: 3;">5</div>
+<div class="day" style="grid-column: 2; grid-row: 3;">6</div>
+<div class="day" style="grid-column: 3; grid-row: 3;">7</div>
+<div class="day" style="grid-column: 4; grid-row: 3;">8</div>
+<div class="day" style="grid-column: 5; grid-row: 3;">9</div>
+<div class="day" style="grid-column: 6; grid-row: 3;">10</div>
+<div class="day" style="grid-column: 7; grid-row: 3;">11</div>
+<div class="day" style="grid-column: 1; grid-row: 4;">12</div>
+<div class="day" style="grid-column: 2; grid-row: 4;">13</div>
+<div class="day" style="grid-column: 3; grid-row: 4;">14</div>
+<div class="day" style="grid-column: 4; grid-row: 4;">15</div>
+<div class="day" style="grid-column: 5; grid-row: 4;">16</div>
+<div class="day" style="grid-column: 6; grid-row: 4;">17</div>
+<div class="day" style="grid-column: 7; grid-row: 4;">18</div>
+<div class="day" style="grid-column: 1; grid-row: 5;">19</div>
+<div class="day" style="grid-column: 2; grid-row: 5;">20</div>
+<div class="day" style="grid-column: 3; grid-row: 5;">21</div>
+<div class="day" style="grid-column: 4; grid-row: 5;">22</div>
+<div class="day" style="grid-column: 5; grid-row: 5;">23</div>
+<div class="day" style="grid-column: 6; grid-row: 5;">24</div>
+<div class="day" style="grid-column: 7; grid-row: 5;">25</div>
+<div class="day" style="grid-column: 1; grid-row: 6;">26</div>
+<div class="day" style="grid-column: 2; grid-row: 6;">27</div>
+<div class="day" style="grid-column: 3; grid-row: 6;">28</div>
+
+<!--disabled dates--->
+<div class="day day--disabled" style="grid-column: 4; grid-row: 6;">1</div>
+<div class="day day--disabled" style="grid-column: 5; grid-row: 6;">2</div>
+<div class="day day--disabled" style="grid-column: 6; grid-row: 6;">3</div>
+<div class="day day--disabled" style="grid-column: 7; grid-row: 6;">4</div>
+<div class="day" style="grid-column: 1; grid-row: 7;"></div>
+
+<!--CLASS BARS---> 
+
+<!--ClassBar START Class Eight--->
+<section class="class--bar" onclick="myFunction('class8PopUp')" id="class8" style="grid-column: 4 / span 1; grid-row: 2;">Class Eight</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Nine--->
+<section class="class--bar" onclick="myFunction('class9PopUp')" id="class9" style="grid-column: 2 / span 1; grid-row: 3;">Class Nine</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Ten--->
+<section class="class--bar" onclick="myFunction('class10PopUp')" id="class10" style="grid-column: 4 / span 1; grid-row: 3;">Class Ten</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Eleven--->
+<section class="class--bar" onclick="myFunction('class11PopUp')" id="class11" style="grid-column: 2 / span 1; grid-row: 4;">Class Eleven</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Twelve--->
+<section class="class--bar" onclick="myFunction('class12PopUp')" id="class12" style="grid-column: 4 / span 1; grid-row: 4;">Class Twelve</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Thirteen--->
+<section class="class--bar" onclick="myFunction('class13PopUp')" id="class13" style="grid-column: 2 / span 1; grid-row: 5;">Class Thirteen</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Fourteen--->
+<section class="class--bar" onclick="myFunction('class14PopUp')" id="class14" style="grid-column: 4 / span 1; grid-row: 5;">Class Fourteen</section>
+<!--ClassBar END--->
+<!--ClassBar START Class Fifteen--->
+<section class="class--bar" onclick="myFunction('class15PopUp')" id="class15" style="grid-column: 2 / span 1; grid-row: 6;">Class Fifteen</section>
+<!--OrangeClassBar END--->
+<!--ClassBar START Extra Help One--->
+<section class="class--bar" onclick="myFunction('extrahelp1PopUp')" id="extrahelp1" style="grid-column: 1 / span 1; grid-row: 5;">Extra Help <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="extrahelp1PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">10:00am - 12:30pm</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--ClassBar END---> 
+<!--CLASS POPUPS---> 
+
+<!--Class Eight Popup START--->
+<div class="task__detail" id="class8PopUp" onclick="myFunction('class8PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Eight - Garment Aging and Distressing Techniques</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Exploring the difference between reversible and irreversible fabric treatments.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Test various aging and distressing techniques in preparation for future submission.</li>
+<li style="text-decoration-line: underline">Complete the Riches to Rags moodboard, research, and sketches and bring it to our
+next class meeting.</li>
+</ul>
+</div>
+<!--Class Eight Popup END---> 
+
+<!--Class Nine Popup START--->
+<div class="task__detail" id="class9PopUp" onclick="myFunction('class9PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Nine - Starting the Riches to Rags Project</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline">Riches to Rags mood board and research Presentation</li>
+</ul>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Chosen maxi-length dress</li>
+<li>Desired alteration materials and supplies</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Apply at least 2 of the previously learned embellishment techniques to alter your
+maxi dress to suit your character’s costume design.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Begin work on dress alterations.</li>
+</ul>
+</div>
+<!--Class Nine Popup END---> 
+
+<!--Class Ten Popup START--->
+<div class="task__detail" id="class10PopUp" onclick="myFunction('class10PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Ten - Riches to Rags Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Chosen maxi-length dress</li>
+<li>Desired alteration materials and supplies</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Finalize fabric manipulation on maxi dress and document final “Riches” look.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Reminder to acquire a tailored jacket for the Altered Jacket project.</li>
+<li style="text-decoration-line: underline">Complete and submit the “Riches” portion of the Riches to Rags Project via
+Blackboard &gt; Submissions by the end of Unit Five.</li>
+<li style="text-decoration-line: underline">Complete the “Riches” portion of the Riches to Rags Project and bring your altered dress to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Ten Popup END--->
+
+<!--Class Eleven Popup START--->
+<div class="task__detail" id="class11PopUp" onclick="myFunction('class11PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Eleven - Riches to Rags Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline;">Riches to Rags Project Part One Presentation</li>
+</ul>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Desired aging/distressing materials and tools</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Use aging and distressing techniques to further alter and style a basic maxi dress.
+Continue to consider your character and their story during the distressing process.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Apply aging and distressing techniques to the now altered dress, continuing the
+story of your character.</li>
+</ul>
+</div>
+<!--Class Eleven Popup END---> 
+
+<!--Class Twelve Popup START--->
+<div class="task__detail" id="class12PopUp" onclick="myFunction('class12PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Twelve - Riches to Rags Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Desired aging/distressing materials and tools</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Finalize aging and distressing techniques on maxi dress and document final
+look</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li style="text-decoration-line: underline">Complete and submit the “Rags” portion of the Riches to Rags Project via
+Blackboard &gt; Submissions by the end of Unit Six.</li>
+<li style="text-decoration-line: underline">Complete the “Rags” portion of the Riches to Rags Project and bring your
+aged/distressed dress to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Twelve Popup END---> 
+
+<!--Class Thirteen Popup START--->
+<div class="task__detail" id="class13PopUp" onclick="myFunction('class13PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Thirteen - Starting the Jacket Alteration Project</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline;">Riches to Rags Final Project Presentation</li>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Presentation of Riches to Rags Project</li>
+<li>Beginning research for Jacket Alteration Project</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Take several photos of your tailored jacket in preparation for the upcoming
+assignment.</li>
+</ul>
+</div>
+<!--Class Thirteen Popup END---> 
+
+<!--Class Fourteen Popup START--->
+<div class="task__detail" id="class14PopUp" onclick="myFunction('class14PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Fourteen - Jacket Alteration Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Before Class:</p>
+<ul>
+<li class="task__list">Bring the following materials to class:</li>
+<ul>
+<li>Laptop or Tablet</li>
+<li>Drawing media of choice</li>
+</ul>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Produce multiple sketches of embellishments or alterations for a tailored jacket</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Finish initial sketches, research and mind map/mood board ideas for jacket
+alterations. Bring your work to our next class meeting for review.</li>
+<li>Acquire fabric swatches and desired embellishments for final alteration, mood
+board, and process book.</li>
+</ul>
+</div>
+<!--Class Fourteen Popup END---> 
+
+<!--Class Fifteen Popup START--->
+<div class="task__detail" id="class15PopUp" onclick="myFunction('class15PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Fifteen - Jacket Alteration Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+	<ul>
+<li class="task__list" style="text-decoration-line: underline;">Come to class with your jacket sketches for review.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Develop a mood board for your jacket embellishment design including illustrations,
+fabric swatches, and examples of trims and embellishments.</li>
+<li style="text-decoration-line: underline">Prepare to show your work in progress during our next class meeting.</li>
+</ul>
+</div>
+<!--Class Fifteen Popup END---> 
+<!--ASSIGNMENT BARS---> 
+<!--AssignmentBar Four START--->
+<section class="assignment--bar" id="assignment4" onclick="myFunction('assignment4PopUp')" style="grid-column: 4 / span 1; grid-row: 2;">Garment Embellishment Quiz<!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment4PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 10px;">Access Test via Blackboard</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Four END--->  
+<!--AssignmentBar Five START--->
+<section class="assignment--bar" id="assignment5" onclick="myFunction('assignment5PopUp')" style="grid-column: 2 / span 1; grid-row: 3;">Riches to Rags Mood Board <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment5PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Present work during class</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Five END---> 
+<!--AssignmentBar Six START--->
+<section class="assignment--bar" id="assignment6" onclick="myFunction('assignment6PopUp')" style="grid-column: 2 / span 1; grid-row: 4;">Richs to Rags Part One <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment6PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Present work during class</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Six END---> 
+<!--AssignmentBar Seven START--->
+<section class="assignment--bar" id="assignment7" onclick="myFunction('assignment7PopUp')" style="grid-column: 1 / span 1; grid-row: 5;">Richs to Rags Final Due <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment7PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Submit assignment via Blackboard</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Seven END---> 
+<!--AssignmentBar Eight START--->
+<section class="assignment--bar" id="assignment8" onclick="myFunction('assignment8PopUp')" style="grid-column: 2 / span 1; grid-row: 5;">Richs to Rags Critique <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment8PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Bring garment(s) to class for review</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Seven END--->
+</div>
+</div>
+</div>
+<div class="body">
+<div class="calendar-container">
+<div class="calendar-header">
+<h1>March 2023</h1>
+<em>Click each element for more details</em></div>
+<div class="calendar">
+<!--days of the week---> 
+<span class="day-name">Sun</span> 
+<span class="day-name">Mon</span> 
+<span class="day-name">Tue</span> 
+<span class="day-name">Wed</span> 
+<span class="day-name">Thu</span> 
+<span class="day-name">Fri</span> 
+<span class="day-name">Sat</span> 
+<!--disabled dates--->
+<div class="day day--disabled" style="grid-column: 1; grid-row: 2;">26</div>
+<div class="day day--disabled" style="grid-column: 2; grid-row: 2;">27</div>
+<div class="day day--disabled" style="grid-column: 3; grid-row: 2;">28</div>
+<!--active dates--->
+<div class="day" style="grid-column: 4; grid-row: 2;">1</div>
+<div class="day" style="grid-column: 5; grid-row: 2;">2</div>
+<div class="day" style="grid-column: 6; grid-row: 2;">3</div>
+<div class="day" style="grid-column: 7; grid-row: 2;">4</div>
+<div class="day" style="grid-column: 1; grid-row: 3;">5</div>
+<div class="day" style="grid-column: 2; grid-row: 3;">6</div>
+<div class="day" style="grid-column: 3; grid-row: 3;">7</div>
+<div class="day" style="grid-column: 4; grid-row: 3;">8</div>
+<div class="day" style="grid-column: 5; grid-row: 3;">9</div>
+<div class="day" style="grid-column: 6; grid-row: 3;">10</div>
+<div class="day" style="grid-column: 7; grid-row: 3;">11</div>
+<div class="day" style="grid-column: 1; grid-row: 4;">12</div>
+<div class="day" style="grid-column: 2; grid-row: 4;">13</div>
+<div class="day" style="grid-column: 3; grid-row: 4;">14</div>
+<div class="day" style="grid-column: 4; grid-row: 4;">15</div>
+<div class="day" style="grid-column: 5; grid-row: 4;">16</div>
+<div class="day" style="grid-column: 6; grid-row: 4;">17</div>
+<div class="day" style="grid-column: 7; grid-row: 4;">18</div>
+<div class="day" style="grid-column: 1; grid-row: 5;">19</div>
+<div class="day" style="grid-column: 2; grid-row: 5;">20</div>
+<div class="day" style="grid-column: 3; grid-row: 5;">21</div>
+<div class="day" style="grid-column: 4; grid-row: 5;">22</div>
+<div class="day" style="grid-column: 5; grid-row: 5;">23</div>
+<div class="day" style="grid-column: 6; grid-row: 5;">24</div>
+<div class="day" style="grid-column: 7; grid-row: 5;">25</div>
+<div class="day" style="grid-column: 1; grid-row: 6;">26</div>
+<div class="day" style="grid-column: 2; grid-row: 6;">27</div>
+<div class="day" style="grid-column: 3; grid-row: 6;">28</div>
+<div class="day" style="grid-column: 4; grid-row: 6;">29</div>
+<div class="day" style="grid-column: 5; grid-row: 6;">30</div>
+<div class="day" style="grid-column: 6; grid-row: 6;">31</div>
+<!--disabled dates--->
+<div class="day day--disabled" style="grid-column: 7; grid-row: 6;">1</div>
+<div class="day" style="grid-column: 1; grid-row: 7;"></div>
+<!--CLASS BARS---> 
+
+<!--ClassBar START Class Sixteen--->
+<section class="class--bar" onclick="myFunction('class16PopUp')" id="class16" style="grid-column: 4 / span 1; grid-row: 2;">Class Sixteen</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Seventeen--->
+<section class="class--bar" onclick="myFunction('class17PopUp')" id="class17" style="grid-column: 2 / span 1; grid-row: 3;">Class Seventeen</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Eighteen--->
+<section class="class--bar" onclick="myFunction('class18PopUp')" id="class18" style="grid-column: 4 / span 1; grid-row: 3;">Class Eighteen</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Nineteen--->
+<section class="class--bar" onclick="myFunction('class19PopUp')" id="class19" style="grid-column: 2 / span 1; grid-row: 4;">Class Nineteen</section>
+<!--ClassBar END---> 
+<!--ClassBar START Class Nineteen--->
+<section class="class--bar" onclick="myFunction('class20PopUp')" id="class20" style="grid-column: 4 / span 1; grid-row: 4;">Class Twenty</section>
+<!--ClassBar END--->  
+<!--ClassBar START Extra Help Two--->
+<section class="class--bar" onclick="myFunction('extrahelp2PopUp')" id="extrahelp2" style="grid-column: 1 / span 1; grid-row: 3;">Extra Help <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="extrahelp2PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">10:00am - 12:30pm</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--ClassBar END---> 
+<!--CLASS POPUPS---> 
+
+<!--Class Sixteen Popup START--->
+<div class="task__detail" id="class16PopUp" onclick="myFunction('class16PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Sixteen - Jacket Alteration Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list">Bring your Jacket Alteration Process Book (WIP) to class for review.</li>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Begin work on altering and embellishing a tailored jacket.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Complete and submit the Altered Jacket Process Book via Blackboard &gt;
+	Submissions by the end of Unit Eight.</li>
+<li>Complete the Altered Jacket Process Book and bring it to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Sixteen Popup END---> 
+
+<!--Class Seventeen Popup START--->
+<div class="task__detail" id="class17PopUp" onclick="myFunction('class17PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Seventeen - Jacket Alteration Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul class="task__list">
+<li style="text-decoration-line: underline">Come to class with your jacket (WIP).</li>
+<li>Tailored Jacket Work In Progress Check-in</li>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Discusson of custom versus Ready-made garments</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul>
+<li class="task__list">Continue Jacket Alterations to 60% completion.</li>
+</ul>
+</div>
+<!--Class Seventeen Popup END---> 
+
+<!--Class Eighteen Popup START--->
+<div class="task__detail" id="class18PopUp" onclick="myFunction('class18PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Eighteen - Jacket Alteration Project Continued</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Work on jacket alterations and finishings.</li>
+</ul>
+<p class="task__chapter">After Class:</p>
+<ul class="task__list">
+<li>Complete the jacket construction.</li>
+<li style="text-decoration-line: underline;">Complete and submit the Altered Jacket Project via Blackboard &gt; Submissions by the end of Unit Nine.</li>
+<li style="text-decoration-line: underline;">Complete the Altered Jacket Project and bring your modified jacket to our next class meeting.</li>
+</ul>
+</div>
+<!--Class Eighteen Popup END---> 
+
+<!--Class Nineteen Popup START--->
+<div class="task__detail" id="class19PopUp" onclick="myFunction('class19PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Nineteen - Jacket Critique</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">Due:</p>
+<ul>
+<li class="task__list" style="text-decoration-line: underline">Come to class with the completed jacket.</li>
+</ul>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li>Altered Jacket Presentations</li>
+</ul>
+</div>
+<!--Class Nineteen Popup END--->
+
+<!--Class Twenty Popup START--->
+<div class="task__detail" id="class20PopUp" onclick="myFunction('class20PopUp')" style="display: none;"><!--Popup Content--->
+<div style="width: 100%; display: table;">
+<div style="display: table-row;">
+<div class="task__header">
+<h3>Class Twenty - Fabric Simulation Software</h3>
+</div>
+<div style="display: table-cell; text-align: right; font-size: 20px; color: rgba(0,0,0,0.6);">✕</div>
+</div>
+</div>
+<p class="task__chapter">During Class:</p>
+<ul>
+<li class="task__list">Visualizing Garment Construction in CLO</li>
+
+</ul>
+</div>
+<!--Class Twenty Popup END---> 
+<!--ASSIGNMENT BARS---> 
+<!--AssignmentBar Nine START--->
+<section class="assignment--bar" id="assignment9" onclick="myFunction('assignment9PopUp')" style="grid-column: 1 / span 1; grid-row: 3;">Jacket Process Book <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment9PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Submit assignment via Blackboard</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Nine END---> 
+<!--AssignmentBar Ten START--->
+<section class="assignment--bar" id="assignment10" onclick="myFunction('assignment10PopUp')" style="grid-column: 1 / span 1; grid-row: 4;">Jacket Final Due <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment10PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Submit assignment via Blackboard</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Ten END---> 
+<!--AssignmentBar Eleven START--->
+<section class="assignment--bar" id="assignment11" onclick="myFunction('assignment11PopUp')" style="grid-column: 2 / span 1; grid-row: 4;">Jacket Final Critique <!--AssignmentBar Attached Popup START--->
+<div class="assignment__detail" id="assignment11PopUp" style="top: calc(100% + 10px); display: none;"><!--Assignment Bar Popup Content--->
+<p class="assignment__text" style="font-size: 12px;">Bring garment(s) to class for review</p>
+</div>
+<!--AssignmentBar Attached Popup END---></section>
+<!--AssignmentBar Eleven END---> 
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+	</body>
+</html>
